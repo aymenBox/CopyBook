@@ -14,27 +14,19 @@ class MyCard extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
             const ListTile(
-              leading: Icon(Icons.album),
-              title: Text('Card Title'),
-              subtitle: Text('Card Text'),
+              title: Text('Dossier'),
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.end,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 TextButton(
-                  child: const Text('Button 1'),
+                  child: const Text('Ouvrire'),
                   onPressed: () {
                     Navigator.push(context,
                         MaterialPageRoute(builder: (context) => Folders()));
                     /* ... */
                   },
                 ),
-                const SizedBox(width: 2),
-                TextButton(
-                  child: const Text('Button 2'),
-                  onPressed: () {/* ... */},
-                ),
-                const SizedBox(width: 2),
               ],
             ),
           ],

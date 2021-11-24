@@ -4,13 +4,11 @@
 
 import 'package:copybook/myWidget/GetBackButton.dart';
 import 'package:copybook/myWidget/MyCheckBox.dart';
-import 'package:copybook/myWidget/MyImageGridView.dart';
 import 'package:copybook/myWidget/MySlider.dart';
 import 'package:flutter/material.dart';
 
 import '/myWidget/MyTitle.dart';
 import '/myWidget/NavDrawer.dart';
-import '/myWidget/CameraButton.dart';
 
 class Parameter extends StatelessWidget {
   @override

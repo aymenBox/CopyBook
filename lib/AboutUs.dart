@@ -3,7 +3,6 @@
 // found in the LICENSE file.
 
 import 'package:copybook/myWidget/GetBackButton.dart';
-import 'package:copybook/myWidget/MyLinnierPurcentageBar.dart';
 import 'package:flutter/material.dart';
 
 import '/myWidget/MyTitle.dart';

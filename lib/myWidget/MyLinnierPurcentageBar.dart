@@ -16,9 +16,9 @@ class _MyLinnierPurcentageBarState extends State<MyLinnierPurcentageBar>
   void initState() {
     controller = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 5),
+      duration: const Duration(seconds: 10),
     )..addListener(() {
-        setState(() {});
+        //setState(() {});
       });
     controller.repeat(reverse: true);
     super.initState();
@@ -34,11 +34,9 @@ class _MyLinnierPurcentageBarState extends State<MyLinnierPurcentageBar>
   Widget build(BuildContext context) {
     return Container(
       width: 200,
-      child: Flexible(
-        child: LinearProgressIndicator(
-          value: controller.value,
-          semanticsLabel: 'Linear progress indicator',
-        ),
+      child: LinearProgressIndicator(
+        value: controller.value,
+        semanticsLabel: 'Linear progress indicator',
       ),
     );
   }

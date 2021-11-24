@@ -8,7 +8,6 @@ import 'package:flutter/material.dart';
 
 import 'myWidget/MyTitle.dart';
 import 'myWidget/NavDrawer.dart';
-import 'myWidget/PlusButton.dart';
 import 'myWidget/CameraButton.dart';
 
 class Folders extends StatelessWidget {
